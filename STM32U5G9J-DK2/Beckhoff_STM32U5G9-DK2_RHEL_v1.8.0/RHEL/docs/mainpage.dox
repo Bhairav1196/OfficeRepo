@@ -1,0 +1,32 @@
+/**
+@mainpage Single EK9500 Modbus TCP Gateway v1.8.0
+
+@section overview Overview
+
+This C11/POSIX service bridges permitted Modbus TCP masters to one Beckhoff
+EK9500 EtherNet/IP station. Modbus Unit ID 1 provides 16 DI, 16 DO, 4 AI and
+4 AO through the fixed EL1409, EL2409, EL3074 and EL4074 terminal sequence.
+
+@section assembly PDO assembly
+
+Input Assembly 129 is 30 bytes: 4-byte header, 2-byte DI, 16-byte AI and
+8-byte AO status. Output Assembly 130 is 22 bytes: 4-byte header, 2-byte DO
+and 16-byte AO REAL32 data.
+
+@section scaling EL4074 scaling
+
+The AO Modbus table contains four signed 16-bit commands at 0.01 mA/count.
+The cyclic output is REAL32 in SI amperes:
+
+@code
+real32_amperes = (double)(int16_t)modbus_word / 100000.0;
+@endcode
+
+Thus register value 132 represents 1.320 mA and is encoded as 0.00132 A.
+
+@section docs Documentation
+
+README.md is the operational entry point. The docs directory contains the
+register map, architecture, configuration, commissioning and troubleshooting
+guides.
+*/

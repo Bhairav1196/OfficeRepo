@@ -1,0 +1,14 @@
+[ProjectFiles]
+HeaderPath=../Drivers/BSP;../Core/Inc;../Application/Common/Inc;../Application/Config/Inc;../Application/Drivers/Platform/Inc;../Application/Drivers/W5500/Inc;../Application/Interfaces/Inc;../Application/RTOS/Inc;../Application/Services/Diagnostics/Inc;../Application/Services/IO/Inc;../Application/Services/Modbus/Inc
+
+[Groups]
+Drivers/BSP=../Drivers/BSP/Components/mx66uw1g45g/mx66uw1g45g.c
+Application/User/v2/Config=../Application/Config/Src/io_config.c;../Application/Config/Src/io_config_validate.c
+Application/User/v2/Drivers=../Application/Drivers/Platform/Src/w5500_port_stm32.c;../Application/Drivers/W5500/Src/w5500_driver.c
+Application/User/v2/Services=../Application/Services/Diagnostics/Src/diagnostics_service.c;../Application/Services/IO/Src/io_service.c;../Application/Services/Modbus/Src/modbus_tcp_client.c
+Application/User/v2/RTOS=../Application/RTOS/Src/app_rtos.c
+Application/User/TouchGFX/target=../TouchGFX/target/CortexMMCUInstrumentation.cpp;../TouchGFX/target/KeySampler.cpp
+
+[Others]
+Define=STM32U5G9_DK2_W5500_MODBUS_MASTER
+HALModule=SPI

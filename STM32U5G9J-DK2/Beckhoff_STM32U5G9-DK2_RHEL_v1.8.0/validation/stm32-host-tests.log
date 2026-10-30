@@ -1,0 +1,5 @@
+analog scaling tests: PASS
+io configuration/scaling tests: PASS
+modbus tcp tests: PASS
+w5500 driver tests: PASS
+HOST TESTS: PASS

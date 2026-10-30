@@ -1,0 +1,201 @@
+PASS: SemVer VERSION is 2.0.0-alpha.9.0
+PASS: app_version.h matches VERSION
+PASS: TouchGFX tool prep has no recursive scan
+PASS: TouchGFX asset build uses non-interactive GNU Make checks
+PASS: TouchGFX asset build does not invoke PREPARE script
+PASS: ThreadX hook includes app_rtos.h once
+PASS: ThreadX hook calls fn_AppRtos_Create once
+PASS: legacy Master_ThreadX_Create removed
+PASS: SPI1 generated init is 8-bit
+PASS: SPI1 generated init prescaler is /8
+PASS: IOC SPI1 remains 8-bit
+PASS: IOC W5500 CS normalized
+PASS: IOC W5500 reset normalized
+PASS: Application/Common/Inc/app_version.h present
+PASS: Application/Config/Inc/app_config.h present
+PASS: Application/Config/Inc/io_config.h present
+PASS: Application/Config/Inc/io_config_types.h present
+PASS: Application/Config/Inc/io_signal_ids.h present
+PASS: Application/Config/Inc/network_config.h present
+PASS: Application/Config/Inc/modbus_config.h present
+PASS: Application/Config/Src/io_config.c present
+PASS: Application/Config/Src/io_config_validate.c present
+PASS: Application/Drivers/Platform/Inc/w5500_port_stm32.h present
+PASS: Application/Drivers/Platform/Src/w5500_port_stm32.c present
+PASS: Application/Drivers/W5500/Inc/w5500_driver.h present
+PASS: Application/Drivers/W5500/Src/w5500_driver.c present
+PASS: Application/Interfaces/Inc/hmi_service.h present
+PASS: Application/RTOS/Inc/app_rtos.h present
+PASS: Application/RTOS/Inc/app_watchdog.h present
+PASS: Application/RTOS/Src/app_rtos.c present
+PASS: Application/RTOS/Src/app_watchdog.c present
+PASS: Application/Services/Diagnostics/Inc/diagnostics_service.h present
+PASS: Application/Services/Diagnostics/Src/diagnostics_service.c present
+PASS: Application/Services/IO/Inc/io_service.h present
+PASS: Application/Services/IO/Src/io_service.c present
+PASS: Application/Services/Modbus/Inc/modbus_tcp_client.h present
+PASS: Application/Services/Modbus/Src/modbus_tcp_client.c present
+PASS: legacy Core/Src/master_io.c absent
+PASS: legacy Core/Src/master_threadx.c absent
+PASS: legacy Core/Src/modbus_tcp_client.c absent
+PASS: legacy Core/Src/w5500_master.c absent
+PASS: legacy Core/Src/w5500_port_stm32.c absent
+PASS: Application/Common/Inc/app_version.h has author
+PASS: Application/Common/Inc/app_version.h has version
+PASS: Application/Config/Inc/app_config.h has author
+PASS: Application/Config/Inc/app_config.h has version
+PASS: Application/Config/Inc/io_config.h has author
+PASS: Application/Config/Inc/io_config.h has version
+PASS: Application/Config/Inc/io_config_types.h has author
+PASS: Application/Config/Inc/io_config_types.h has version
+PASS: Application/Config/Inc/io_signal_ids.h has author
+PASS: Application/Config/Inc/io_signal_ids.h has version
+PASS: Application/Config/Inc/modbus_config.h has author
+PASS: Application/Config/Inc/modbus_config.h has version
+PASS: Application/Config/Inc/network_config.h has author
+PASS: Application/Config/Inc/network_config.h has version
+PASS: Application/Config/Src/io_config.c has author
+PASS: Application/Config/Src/io_config.c has version
+PASS: Application/Config/Src/io_config_validate.c has author
+PASS: Application/Config/Src/io_config_validate.c has version
+PASS: Application/Drivers/Platform/Inc/w5500_port_stm32.h has author
+PASS: Application/Drivers/Platform/Inc/w5500_port_stm32.h has version
+PASS: Application/Drivers/Platform/Src/w5500_port_stm32.c has author
+PASS: Application/Drivers/Platform/Src/w5500_port_stm32.c has version
+PASS: Application/Drivers/W5500/Inc/w5500_driver.h has author
+PASS: Application/Drivers/W5500/Inc/w5500_driver.h has version
+PASS: Application/Drivers/W5500/Src/w5500_driver.c has author
+PASS: Application/Drivers/W5500/Src/w5500_driver.c has version
+PASS: Application/Interfaces/Inc/hmi_service.h has author
+PASS: Application/Interfaces/Inc/hmi_service.h has version
+PASS: Application/RTOS/Inc/app_rtos.h has author
+PASS: Application/RTOS/Inc/app_rtos.h has version
+PASS: Application/RTOS/Inc/app_watchdog.h has author
+PASS: Application/RTOS/Inc/app_watchdog.h has version
+PASS: Application/RTOS/Src/app_rtos.c has author
+PASS: Application/RTOS/Src/app_rtos.c has version
+PASS: Application/RTOS/Src/app_watchdog.c has author
+PASS: Application/RTOS/Src/app_watchdog.c has version
+PASS: Application/Services/Diagnostics/Inc/diagnostics_service.h has author
+PASS: Application/Services/Diagnostics/Inc/diagnostics_service.h has version
+PASS: Application/Services/Diagnostics/Src/diagnostics_service.c has author
+PASS: Application/Services/Diagnostics/Src/diagnostics_service.c has version
+PASS: Application/Services/IO/Inc/io_service.h has author
+PASS: Application/Services/IO/Inc/io_service.h has version
+PASS: Application/Services/IO/Src/io_service.c has author
+PASS: Application/Services/IO/Src/io_service.c has version
+PASS: Application/Services/Modbus/Inc/modbus_tcp_client.h has author
+PASS: Application/Services/Modbus/Inc/modbus_tcp_client.h has version
+PASS: Application/Services/Modbus/Src/modbus_tcp_client.c has author
+PASS: Application/Services/Modbus/Src/modbus_tcp_client.c has version
+PASS: current and voltage modes configured
+PASS: piecewise mapping supported
+PASS: write reject/clamp policy supported
+PASS: configuration has electrical hardware/operating/map ranges
+PASS: configuration has process map/operating ranges
+PASS: configuration fixed to one Beckhoff unit
+PASS: digital HMI exposes 16 slots
+PASS: Unit 1 topology is 16 DI 16 DO 4 AI 4 AO
+PASS: Unit 1 AI default mode is +/-10 V
+PASS: Unit 1 AO default mode is +/-20 mA
+PASS: duplicate register mapping validation present
+PASS: AO service rejects out-of-range before register write
+PASS: TouchGFX metadata comes from unit-aware config
+PASS: exactly one TouchGFX descriptor
+PASS: TouchGFX 800x480
+PASS: TouchGFX one state-driven six-page root screen
+PASS: TouchGFX maritime single-unit HMI has 184 editable components
+PASS: TouchGFX has 10 rounded Button components
+PASS: TouchGFX single-unit process widgets present
+PASS: TouchGFX unit/AO interactions count is 10
+PASS: TouchGFX rounded metallic tab assets referenced
+PASS: TouchGFX rounded metallic AO assets referenced
+PASS: TouchGFX uses supported Color::getColorFromRGB
+PASS: TouchGFX owns live buffers outside generated code
+PASS: TouchGFX explicit wildcard binding present
+PASS: TouchGFX main screen uses process model not raw fields
+PASS: TouchGFX analog formatter avoids unsupported %lu length modifier
+PASS: TouchGFX shows AI and AO simultaneously
+PASS: TouchGFX has all six maritime pages
+PASS: TouchGFX dark tactical palette
+PASS: RHEL matched rate ceiling is 500 req/s
+PASS: server refusal does not trigger W5500 reinit
+PASS: valid Modbus exceptions have dedicated counter
+PASS: W5500 connect guards established session
+PASS: IWDG starts before ThreadX
+PASS: IWDG refresh is task-health gated
+PASS: IWDG configured in CubeMX descriptor
+PASS: Simulator links v2 config source
+PASS: Simulator links v2 IO service
+PASS: Simulator includes HMI interface path
+PASS: Target app.mk integrates HMI interface
+PASS: Target app.mk integrates RTOS implementation
+PASS: Target app.mk integrates Modbus service
+PASS: Target app.mk integrates W5500 driver
+PASS: Simulator compiles application C sources with gcc
+PASS: Simulator defines C-only option override
+PASS: Simulator C-only option list excludes overloaded-virtual
+PASS: TouchGFX asset check spawns no interactive Windows shell
+PASS: TouchGFX build path does not execute environment preparation helper
+PASS: TouchGFX tool preparation batch exists
+PASS: TouchGFX environment preparation batch exists
+PASS: TouchGFX tool locator requires 4.26.1
+PASS: TouchGFX tool locator validates Version.hpp
+PASS: TouchGFX tool locator handles imageconvert and fontconvert
+PASS: TouchGFX tool locator supports official local override
+PASS: TouchGFX vendor converter binaries are not redistributed
+PASS: Simulator backend at non-duplicated root path
+PASS: Simulator backend has no HAL/ThreadX dependency
+PASS: CubeIDE linked: Application/Common/Inc/app_version.h
+PASS: CubeIDE linked: Application/Config/Inc/app_config.h
+PASS: CubeIDE linked: Application/Config/Inc/io_config.h
+PASS: CubeIDE linked: Application/Config/Inc/io_config_types.h
+PASS: CubeIDE linked: Application/Config/Inc/io_signal_ids.h
+PASS: CubeIDE linked: Application/Config/Inc/network_config.h
+PASS: CubeIDE linked: Application/Config/Inc/modbus_config.h
+PASS: CubeIDE linked: Application/Config/Src/io_config.c
+PASS: CubeIDE linked: Application/Config/Src/io_config_validate.c
+PASS: CubeIDE linked: Application/Drivers/Platform/Inc/w5500_port_stm32.h
+PASS: CubeIDE linked: Application/Drivers/Platform/Src/w5500_port_stm32.c
+PASS: CubeIDE linked: Application/Drivers/W5500/Inc/w5500_driver.h
+PASS: CubeIDE linked: Application/Drivers/W5500/Src/w5500_driver.c
+PASS: CubeIDE linked: Application/Interfaces/Inc/hmi_service.h
+PASS: CubeIDE linked: Application/RTOS/Inc/app_rtos.h
+PASS: CubeIDE linked: Application/RTOS/Inc/app_watchdog.h
+PASS: CubeIDE linked: Application/RTOS/Src/app_rtos.c
+PASS: CubeIDE linked: Application/RTOS/Src/app_watchdog.c
+PASS: CubeIDE linked: Application/Services/Diagnostics/Inc/diagnostics_service.h
+PASS: CubeIDE linked: Application/Services/Diagnostics/Src/diagnostics_service.c
+PASS: CubeIDE linked: Application/Services/IO/Inc/io_service.h
+PASS: CubeIDE linked: Application/Services/IO/Src/io_service.c
+PASS: CubeIDE linked: Application/Services/Modbus/Inc/modbus_tcp_client.h
+PASS: CubeIDE linked: Application/Services/Modbus/Src/modbus_tcp_client.c
+PASS: CubeIDE include path: ../../Application/Common/Inc
+PASS: extSettings header path: ../Application/Common/Inc
+PASS: CubeIDE include path: ../../Application/Config/Inc
+PASS: extSettings header path: ../Application/Config/Inc
+PASS: CubeIDE include path: ../../Application/Drivers/Platform/Inc
+PASS: extSettings header path: ../Application/Drivers/Platform/Inc
+PASS: CubeIDE include path: ../../Application/Drivers/W5500/Inc
+PASS: extSettings header path: ../Application/Drivers/W5500/Inc
+PASS: CubeIDE include path: ../../Application/Interfaces/Inc
+PASS: extSettings header path: ../Application/Interfaces/Inc
+PASS: CubeIDE include path: ../../Application/RTOS/Inc
+PASS: extSettings header path: ../Application/RTOS/Inc
+PASS: CubeIDE include path: ../../Application/Services/Diagnostics/Inc
+PASS: extSettings header path: ../Application/Services/Diagnostics/Inc
+PASS: CubeIDE include path: ../../Application/Services/IO/Inc
+PASS: extSettings header path: ../Application/Services/IO/Inc
+PASS: CubeIDE include path: ../../Application/Services/Modbus/Inc
+PASS: extSettings header path: ../Application/Services/Modbus/Inc
+PASS: CubeIDE stale link removed: master_io.c
+PASS: CubeIDE stale link removed: master_threadx.c
+PASS: CubeIDE stale link removed: modbus_tcp_client.c
+PASS: CubeIDE stale link removed: w5500_master.c
+PASS: CubeIDE stale link removed: w5500_port_stm32.c
+PASS: TouchGFX primary font is Roboto
+PASS: TouchGFX no Verdana typography remains
+PASS: font helper prepares Roboto
+PASS: no font binaries packaged
+PROJECT VERIFY: PASS (199 checks)
+PASS: 184 Designer components, 120 required bindings, six dark maritime pages, simultaneous AI/AO and Roboto typography.

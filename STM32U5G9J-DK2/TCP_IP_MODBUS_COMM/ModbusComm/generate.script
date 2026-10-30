@@ -1,0 +1,9 @@
+popupwrapper set
+
+popupwrapper record_answer "New STM32Cube firmware version available" BUTTON_1
+
+config load STM32U5G9J-DK2-ThreadX.ioc
+project generate
+config save
+
+exit

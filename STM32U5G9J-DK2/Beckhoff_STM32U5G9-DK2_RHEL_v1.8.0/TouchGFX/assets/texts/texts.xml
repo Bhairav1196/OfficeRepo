@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.26.1">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="MainScreen">
+      <Text Id="TITLE" Alignment="Left" TypographyId="UI_TITLE">
+        <Translation Language="GB">LADSL // SWAN Fin Stabilizer</Translation>
+      </Text>
+      <Text Id="LBL_TCP" Alignment="Left" TypographyId="UI_SMALL">
+        <Translation Language="GB">TCP</Translation>
+      </Text>
+      <Text Id="LBL_UPTIME" Alignment="Left" TypographyId="UI_SMALL">
+        <Translation Language="GB">COMM UPTIME</Translation>
+      </Text>
+      <Text Id="LBL_DI" Alignment="Left" TypographyId="UI_SECTION">
+        <Translation Language="GB">DIGITAL INPUTS</Translation>
+      </Text>
+      <Text Id="LBL_DO" Alignment="Left" TypographyId="UI_SECTION">
+        <Translation Language="GB">DIGITAL OUTPUTS</Translation>
+      </Text>
+      <Text Id="LBL_MINUS" Alignment="Center" TypographyId="UI_BUTTON">
+        <Translation Language="GB">-</Translation>
+      </Text>
+      <Text Id="LBL_PLUS" Alignment="Center" TypographyId="UI_BUTTON">
+        <Translation Language="GB">+</Translation>
+      </Text>
+      <Text Id="DYN_UNIT" Alignment="Center" TypographyId="UI_TAB">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="DYN_UNIT_DESC" Alignment="Right" TypographyId="UI_SMALL">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="DYN_SECTION" Alignment="Left" TypographyId="UI_SECTION">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="DYN_NAME" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="DYN_VALUE" Alignment="Right" TypographyId="UI_VALUE">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="DYN_DIGITAL" Alignment="Right" TypographyId="UI_DIGITAL">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="DYN_STATUS" Alignment="Left" TypographyId="UI_STATUS">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="PREVIEW_AO_STEP" Alignment="Center" TypographyId="UI_TAB"><Translation Language="GB">COARSE  0.10 mA</Translation></Text>
+      <Text Id="VALUE_DEFAULT" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">--</Translation>
+      </Text>
+      <Text Id="PREVIEW_HEADERSTATUS" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">STATUS --</Translation>
+      </Text>
+      <Text Id="PREVIEW_AISECTIONTITLE" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">ANALOG INPUTS</Translation>
+      </Text>
+      <Text Id="PREVIEW_AOSECTIONTITLE" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">ANALOG OUTPUTS</Translation>
+      </Text>
+      <Text Id="PREVIEW_NAVLABEL01" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">I/O</Translation>
+      </Text>
+      <Text Id="PREVIEW_NAVLABEL02" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">MOTOR</Translation>
+      </Text>
+      <Text Id="PREVIEW_NAVLABEL03" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">SENSORS</Translation>
+      </Text>
+      <Text Id="PREVIEW_NAVLABEL04" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">FIN LCP</Translation>
+      </Text>
+      <Text Id="PREVIEW_NAVLABEL05" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">MCR</Translation>
+      </Text>
+      <Text Id="PREVIEW_NAVLABEL06" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">BRIDGE</Translation>
+      </Text>
+      <Text Id="PREVIEW_DINAME01" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">01</Translation>
+      </Text>
+      <Text Id="PREVIEW_DONAME01" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">01</Translation>
+      </Text>
+      <Text Id="PREVIEW_DINAME02" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">02</Translation>
+      </Text>
+      <Text Id="PREVIEW_DONAME02" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">02</Translation>
+      </Text>
+      <Text Id="PREVIEW_DINAME03" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">03</Translation>
+      </Text>
+      <Text Id="PREVIEW_DONAME03" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">03</Translation>
+      </Text>
+      <Text Id="PREVIEW_DINAME04" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">04</Translation>
+      </Text>
+      <Text Id="PREVIEW_DONAME04" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">04</Translation>
+      </Text>
+      <Text Id="PREVIEW_DINAME05" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">05</Translation>
+      </Text>
+      <Text Id="PREVIEW_DONAME05" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">05</Translation>
+      </Text>
+      <Text Id="PREVIEW_DINAME06" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">06</Translation>
+      </Text>
+      <Text Id="PREVIEW_DONAME06" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">06</Translation>
+      </Text>
+      <Text Id="PREVIEW_DINAME07" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">07</Translation>
+      </Text>
+      <Text Id="PREVIEW_DONAME07" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">07</Translation>
+      </Text>
+      <Text Id="PREVIEW_DINAME08" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">08</Translation>
+      </Text>
+      <Text Id="PREVIEW_DONAME08" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">08</Translation>
+      </Text>
+      <Text Id="PREVIEW_DINAME09" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">09</Translation>
+      </Text>
+      <Text Id="PREVIEW_DONAME09" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">09</Translation>
+      </Text>
+      <Text Id="PREVIEW_DINAME10" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">10</Translation>
+      </Text>
+      <Text Id="PREVIEW_DONAME10" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">10</Translation>
+      </Text>
+      <Text Id="PREVIEW_DINAME11" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">11</Translation>
+      </Text>
+      <Text Id="PREVIEW_DONAME11" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">11</Translation>
+      </Text>
+      <Text Id="PREVIEW_DINAME12" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">12</Translation>
+      </Text>
+      <Text Id="PREVIEW_DONAME12" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">12</Translation>
+      </Text>
+      <Text Id="PREVIEW_DINAME13" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">13</Translation>
+      </Text>
+      <Text Id="PREVIEW_DONAME13" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">13</Translation>
+      </Text>
+      <Text Id="PREVIEW_DINAME14" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">14</Translation>
+      </Text>
+      <Text Id="PREVIEW_DONAME14" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">14</Translation>
+      </Text>
+      <Text Id="PREVIEW_DINAME15" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">15</Translation>
+      </Text>
+      <Text Id="PREVIEW_DONAME15" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">15</Translation>
+      </Text>
+      <Text Id="PREVIEW_DINAME16" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">16</Translation>
+      </Text>
+      <Text Id="PREVIEW_DONAME16" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">16</Translation>
+      </Text>
+      <Text Id="PREVIEW_ANALOGNAME01" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">AI 01</Translation>
+      </Text>
+      <Text Id="PREVIEW_AONAME01" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">AO 01</Translation>
+      </Text>
+      <Text Id="PREVIEW_ANALOGNAME02" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">AI 02</Translation>
+      </Text>
+      <Text Id="PREVIEW_AONAME02" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">AO 02</Translation>
+      </Text>
+      <Text Id="PREVIEW_ANALOGNAME03" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">AI 03</Translation>
+      </Text>
+      <Text Id="PREVIEW_AONAME03" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">AO 03</Translation>
+      </Text>
+      <Text Id="PREVIEW_ANALOGNAME04" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">AI 04</Translation>
+      </Text>
+      <Text Id="PREVIEW_AONAME04" Alignment="Left" TypographyId="UI_NAME">
+        <Translation Language="GB">AO 04</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="UI_TITLE" Font="Roboto-Regular.ttf" Size="21" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="UI_TAB" Font="Roboto-Medium.ttf" Size="14" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="UI_SECTION" Font="Roboto-Medium.ttf" Size="16" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="UI_SMALL" Font="Roboto-Regular.ttf" Size="12" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="UI_NAME" Font="Roboto-Regular.ttf" Size="12" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="UI_DIGITAL" Font="Roboto-Medium.ttf" Size="13" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="UI_VALUE" Font="Roboto-Medium.ttf" Size="18" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="UI_STATUS" Font="Roboto-Medium.ttf" Size="13" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="UI_BUTTON" Font="Roboto-Medium.ttf" Size="16" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+  </Typographies>
+</TextDatabase>

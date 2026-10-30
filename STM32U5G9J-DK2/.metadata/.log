@@ -1,0 +1,32 @@
+!SESSION 2026-10-29 14:54:52.974 -----------------------------------------------
+eclipse.buildId=Version 2.2.0
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  D:\WORK\CODE\STM32\STM32U5G9J-DK2\TCP_IP_MODBUS_COMM\STM32CubeIDE\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\WORK\CODE\STM32\STM32U5G9J-DK2\TCP_IP_MODBUS_COMM\STM32CubeIDE\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-10-29 14:55:17.854
+!MESSAGE Log4j2 initialized with config file D:\WORK\CODE\STM32\STM32U5G9J-DK2\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-10-29 14:55:20.583
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-10-29 14:55:29.115
+!MESSAGE Indexed 'STM32U5G9J-DK2-TCP_IP_MODBUS' (207 sources, 223 headers) in 7.24 sec: 24,912 declarations; 129,846 references; 36 unresolved inclusions; 179 syntax errors; 4,102 unresolved names (2.6%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-10-29 14:55:32.112
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM4
+COM3
+COM5
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-10-29 14:55:32.114
+!MESSAGE port: COM4
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-10-29 14:55:32.114
+!MESSAGE port: COM3
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-10-29 14:55:32.115
+!MESSAGE port: COM5
